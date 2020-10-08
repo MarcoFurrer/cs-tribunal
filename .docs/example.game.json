@@ -229,6 +229,6 @@
                 { "time": 10, "all": false, "msg" : "GL & HF" },
                 { "time": 20, "all": false, "msg" : "This is another example message" }
             ]
-        },
+        }
     }
 }
