@@ -1,0 +1,234 @@
+{
+    "id": 0,
+    "concerns": "Reported Player",
+    "reports": [
+        {
+            "player": "Concered player 1",
+            "team": 0,
+            "reasons":  [ 0, 1, 2 ],
+            "msg": "Player was extremly toxic all game"
+        },
+        {
+            "player" : "Concerned player 2",
+            "team": 1,
+            "reasons": [ 0, 1, 2 ],
+            "msg": "Player intentionally fed after lost dragon fight, never recovered from that, flamed all team in chat"
+        }
+    ],
+    "game" : {
+        "duration" : 1800,
+        "outcome" : "loss"
+    },
+    "players" : {
+        "Player A": {
+            "team" : 0,
+            "champion" : "Sett",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+        "Player B": {
+            "team" : 0,
+            "champion" : "Annie",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+        "Player C": {
+            "team" : 0,
+            "champion" : "Maokai",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+        "Player D": {
+            "team" : 0,
+            "champion" : "Brand",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+        "Reported Player": {
+            "team" : 0,
+            "champion" : "Yuumi",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 2300, "all": true, "msg" : "My team is bad" },
+                { "time": 2330, "all": true, "msg" : "And you should feel bad" }
+            ]
+        },
+        "Player E": {
+            "team" : 1,
+            "champion" : "Zed",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+        "Player F": {
+            "team" : 1,
+            "champion" : "Volibear",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+        "Player G": {
+            "team" : 1,
+            "champion" : "Orianna",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+        "Player H": {
+            "team" : 1,
+            "champion" : "Vayne",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+        "Player I": {
+            "team" : 1,
+            "champion" : "Nami",
+            "kills" : 0,
+            "deaths" : 0,
+            "assists" : 0,
+            "cs" : 100,
+            "level" : 10,
+            "items" : [
+                { "name": "Tear of the godess", "bought": 1700 },
+                { "name": "Tear of the godess", "bought": 1710 },
+                { "name": "Tear of the godess", "bought": 1720 },
+                { "name": "Tear of the godess", "bought": 1730 },
+                { "name": "Tear of the godess", "bought": 1740 },
+                { "name": "Tear of the godess", "bought": 1750 }
+            ],
+            "messages" : [
+                { "time": 10, "all": false, "msg" : "GL & HF" },
+                { "time": 20, "all": false, "msg" : "This is another example message" }
+            ]
+        },
+    }
+}
