@@ -10,6 +10,10 @@
 * The tribunal should calculate the ammount of correct judgements per user and react accordingly (Promote, demote and revoke access)
 * Admin Team and Devs should review the results and punish the concerning player
 
+## How should it look like?
+
+See [this Youtube Video](https://youtu.be/PnkalhOdOs8) from the original tribunal to see how it should look like
+
 ## Send data examples
 
 The data that should be sent to the REST endpoint for backend are defined in [example.game.json](.docs/example.game.json)
