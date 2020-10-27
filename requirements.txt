@@ -1,0 +1,4 @@
+pipenv
+django
+psycopg2 
+postgres
