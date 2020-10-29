@@ -9,6 +9,7 @@ verify_ssl = true
 psycopg2-binary = "*"
 postgres = "*"
 Django = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.8"
