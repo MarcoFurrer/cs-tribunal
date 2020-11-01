@@ -4,12 +4,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
 psycopg2-binary = "*"
 postgres = "*"
 Django = "*"
 psycopg2 = "*"
+requests = "*"
 
 [requires]
 python_version = "3.8"
