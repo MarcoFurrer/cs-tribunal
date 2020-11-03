@@ -1,7 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpRequest, HttpResponse, JsonResponse
 from django.shortcuts import redirect
+from django.contrib.auth import authenticate, login
 import requests
+
 # Create your views here.
 def home(request: HttpRequest) -> JsonResponse:
     return JsonResponse({"msg": "Hello World"})
@@ -10,6 +12,8 @@ def discord_login(request: HttpRequest):
     return redirect(auth_url_discord)
 def discord_login_redirect(request: HttpRequest):
     code = request.GET.get('code')
+    user = exchange_code(code)
+    authenticate(request, user= user)
     return JsonResponse({"msg": "Redirected"})
 def exchange_code(code:str):
     data = {
@@ -29,3 +33,7 @@ def exchange_code(code:str):
     response = requests.get("https://discord.com/api/v6/users/@me", headers = {
         'Authorization': 'Bearer %s' % access_token
     })    
+    print(response)
+    user = response.json()
+    print(user)
+    return user
