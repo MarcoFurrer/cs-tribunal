@@ -1,12 +1,14 @@
 from django.db import models
-
+from .managers import DiscordUserOAuth2Manager
 # Create your models here.
 class DiscordUser(models.Model):
-    id =  models.BigIntegerField(primary_key=True)
+    objects = DiscordUserOAuth2Manager()
+    id = models.BigIntegerField(primary_key=True)
     discord_tag = models.CharField(max_length=100)
     avatar = models.CharField(max_length=100)
-    public_flags = models.BigIntegerField()
-    flags = models.IntegerField()
+    public_flags = models.IntegerField()
+    flags = models.BigIntegerField()
     locale = models.CharField(max_length=100)
     mfa_enabled = models.BooleanField()
-    last_login = models.DateTimeField()
+    last_login = models.DateTimeField(null=True)
+
