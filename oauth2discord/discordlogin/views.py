@@ -5,8 +5,8 @@ from django.contrib.auth import authenticate, login
 import requests
 
 # Create your views here.
-def home(request: HttpRequest) -> JsonResponse:
-    return JsonResponse({"msg": "Hello World"})
+def home(request):
+    return render(request,"welcome.html")
 auth_url_discord = "https://discord.com/api/oauth2/authorize?client_id=771309151410192384&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Foauth2%2Flogin%2Fredirect&response_type=code&scope=identify"
 def discord_login(request: HttpRequest):
     return redirect(auth_url_discord)
