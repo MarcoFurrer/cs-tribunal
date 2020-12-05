@@ -19,7 +19,7 @@ from discordlogin import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('welcome',views.home, name = 'oauth2'),
+    path('welcome',views.home, name = 'welcome'),
     path('oauth2', views.discord_login, name = 'oauth_login'),
     path('oauth2redirect', views.discord_login_redirect, name='discord_login_redirect')
 ]
