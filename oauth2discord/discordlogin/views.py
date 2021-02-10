@@ -22,7 +22,7 @@ def exchange_code(code:str):
         "grant_type": "authorization_code",
         "code": code,
         "redirect_uri": "http://localhost:8000/oauth2/login/redirect",
-        "scope": "identify"
+        "scope": "identify" #todo: Welches scope nötig für Gruppen
     }
     headers = {
     'Content-Type': 'application/x-www-form-urlencoded'
