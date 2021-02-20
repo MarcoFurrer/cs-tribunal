@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 {% extends "main.html" %}
-
-<html>
-  {% block main %}
-  <body>
-    <div>
-      <div class="column">
-        <h1>Vote</h1>
-        <button type="button" class="btn btn-success btn-block btn-lg">Support</button>
-        <button type="button" class="btn btn-danger btn-block btn-lg">Punish</button>
-        <button type="button" class="btn btn-primary btn-block btn-lg">Next</button>
-      </div>
-      <div class="column">
-        <img src="static/images/avatar.png" alt="avatar">
-      </div>
+{% load static %}
+{% block content %}
+  <div>
+    <div class="column">
+      <h1>Vote</h1>
+      <button type="button" class="btn btn-success btn-block btn-lg">Support</button>
+      <button type="button" class="btn btn-danger btn-block btn-lg">Punish</button>
+      <button type="button" class="btn btn-primary btn-block btn-lg">Next</button>
     </div>
-  </body>
-  {% endblock %}
-</html>
+    <div class="column">
+      <img src="static/images/avatar.png" alt="avatar">
+    </div>
+  </div>
+  {% endblock content%}
