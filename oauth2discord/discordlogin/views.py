@@ -7,6 +7,14 @@ import requests
 # Create your views here.
 def welcome(request):
     return render(request,"welcome.html")
+def instructions(request):
+    return render(request,"instructions.html")
+def settings(request):
+    return render(request,"settings.html")
+def contact(request):
+    return render(request,"contact.html")
+
+
 auth_url_discord = "https://discord.com/api/oauth2/authorize?client_id=771309151410192384&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Foauth2%2Flogin%2Fredirect&response_type=code&scope=identify"
 def discord_login(request: HttpRequest):
     return redirect(auth_url_discord)

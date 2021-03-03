@@ -1,5 +1,6 @@
 {% load static %}
 <!DOCTYPE html>
+
 <html>
   <head>
       <title>CS Tribunal</title>
@@ -15,21 +16,18 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">CS Tribunal</a>
+        <a class="navbar-brand" href="home">CS Tribunal</a>
       
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Welcome <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="instructions">Instructions<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Instructions<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="settings">Settings<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#">Settings<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="contact">Contact <span class="sr-only">(current)</span></a>
             </li>  
           </ul>
           
@@ -37,9 +35,11 @@
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
           </form>
-          <button type="button" class="btn btn-link">Logout</button>
+          <button type="button" class="btn btn-link" href="welcome" >Logout</button>
         </div>
       </nav>
     <hr>
   </body> 
 </html>
+{% block content %}
+{% endblock %}
