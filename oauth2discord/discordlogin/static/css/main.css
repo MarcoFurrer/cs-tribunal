@@ -16,4 +16,7 @@ div {
 .btn-block {
   margin: 15px;
 }
+.column {
+  flex: 50%;
+}
   

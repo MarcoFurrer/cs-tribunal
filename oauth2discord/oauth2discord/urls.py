@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from discordlogin import views
 
 urlpatterns = [
@@ -25,5 +25,6 @@ urlpatterns = [
     path('settings', views. settings, name= 'settings'),
     path('contact', views.contact, name = 'contact'),
     path('oauth2', views.discord_login, name = 'oauth_login'),
-    path('oauth2/login/redirect', views.discord_login_redirect, name='discord_login_redirect')
+    path('oauth2/login/redirect', views.discord_login_redirect, name='discord_login_redirect'),
+
 ]
